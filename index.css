@@ -1,8 +1,46 @@
 body {
     margin: 0;
+    text-align: center;
+    background-color: #1B244A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@font-face {
+    font-family: CursedTimerUlil-Aznm;
+    src: url(CursedTimerUlil-Aznm.ttf);
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+}
+
+
+h3 {
+    color: #eeeeee;
+    font-weight: bold;
+    font-size: 40px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+h2 {
+    color: #F94F6D;
+    background-color: #080001;
+    font-size: 90px;
+    font-family: CursedTimerUlil-Aznm;
+    font-weight: 200;
+    margin: 20px;
+    width: 120px;
+    padding: 18px 15px 2px 15px;
+    border-radius: 5px;
+}
+
+button {
+    color: #9AABD8;
+    background: none;
+    border: #9AABD8 1px solid;
+    border-radius: 5px;
+    font-family: CursedTimerUlil-Aznm;
+    font-size: 18px;
+    padding: 12px;
 }
